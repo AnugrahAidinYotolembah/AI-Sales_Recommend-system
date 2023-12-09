@@ -1,0 +1,50 @@
+==========================================================================================
+- HOW TO CLONE REPOSITORY GITHUB?
+
+# Clone the repository
+git clone https://github.com/dutaaamahar/ai-sales.git
+
+# Navigate to the repo directory
+cd ai-sales
+
+# Create a virtual environment (optional but recommended)
+python -m venv venv
+
+# Activate the virtual environmentV
+venv\Scripts\activate
+
+# Install the project dependencies
+pip install -r requirements.txt
+
+# Navigate to the project directory
+cd ai_sales
+
+# Start the development server
+python manage.py runserver
+
+
+==========================================================================================
+- HOW TO CREATE BRANCH IN GIT?
+
+# Create a new branch and switch to it
+git checkout -b <new-branch>
+
+
+==========================================================================================
+- HOW TO PUSH LOCAL REPOSITORY TO GITHUB?
+
+# Stage all changes
+git add .
+
+# Commit the staged changes with a descriptive message
+git commit -m "<messages>"
+
+# Push the committed changes to the remote repository on GitHub
+git push origin <branch_name>
+
+
+==========================================================================================
+- HOW TO PULL REPOSITORY IN GITHUB?
+
+# Pull changes from the specified branch on the remote repository
+git pull origin <branch_name>

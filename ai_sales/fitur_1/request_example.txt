@@ -1,0 +1,8 @@
+Endpoint: {host}/fitur-1//
+Method: POST
+Input:
+{
+
+}
+Output:
+
